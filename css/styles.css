@@ -30,7 +30,7 @@ Table Of Contents:
 
 /*****************************************
 Colors:
-- Backgrounds, buttons, bullets, icons - blue #5f4dee
+- Backgrounds, buttons, bullets, icons - blue #9d2f28
 - Backgrounds, light button, light body text - light gray #f3f7fd
 - Headings text - black #333
 - Body text - dark gray #555
@@ -97,7 +97,7 @@ h6 {
 
 .above-heading {
 	color: #9d2f28;
-	font: 700 0.75rem/0.875rem "Open Sans", sans-serif;
+	font: 700 1.7rem "Open Sans", sans-serif;
 	text-align: center;
 }
 
@@ -145,15 +145,15 @@ a.white {
 }
 
 .blue {
-	color: #5f4dee;
+	color: #9d2f28;
 }
 
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #5f4dee;
+	border: 0.125rem solid #9d2f28;
 	border-radius: 2rem;
-	background-color: #5f4dee;
+	background-color: #9d2f28;
 	color: #fff;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
@@ -162,16 +162,16 @@ a.white {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #5f4dee;
+	color: #9d2f28;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #5f4dee;
+	border: 0.125rem solid #9d2f28;
 	border-radius: 2rem;
-	background-color: #5f4dee;
+	background-color: #9d2f28;
 	color: #fff;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
@@ -180,24 +180,24 @@ a.white {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #5f4dee;
+	color: #9d2f28;
 	text-decoration: none;
 }
 
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #5f4dee;
+	border: 0.125rem solid #9d2f28;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #5f4dee;
+	color: #9d2f28;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #5f4dee;
+	background-color: #9d2f28;
 	color: #fff;
 	text-decoration: none;
 }
@@ -205,17 +205,17 @@ a.white {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #5f4dee;
+	border: 0.125rem solid #9d2f28;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #5f4dee;
+	color: #9d2f28;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-	background-color: #5f4dee;
+	background-color: #9d2f28;
 	color: #fff;
 	text-decoration: none;
 }
@@ -223,17 +223,17 @@ a.white {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 0.875rem 1.5rem 0.875rem 1.5rem;
-	border: 0.125rem solid #5f4dee;
+	border: 0.125rem solid #9d2f28;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #5f4dee;
+	color: #9d2f28;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	background-color: #5f4dee;
+	background-color: #9d2f28;
 	color: #fff;
 	text-decoration: none;
 }
@@ -381,9 +381,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 1px solid #5f4dee;
+	border: 1px solid #9d2f28;
 	border-radius: 1.5rem;
-	background-color: #5f4dee;
+	background-color: #9d2f28;
 	color: #fff;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	cursor: pointer;
@@ -392,7 +392,7 @@ input[type='checkbox'] {
 
 .form-control-submit-button:hover {
 	background-color: transparent;
-	color: #5f4dee;
+	color: #9d2f28;
 }
 
 /* Form Success And Error Message Formatting */
@@ -666,7 +666,7 @@ input[type='checkbox'] {
 
 .navbar-custom .navbar-brand.logo-text {
 	font: 700 2rem/1.5rem "Open Sans", sans-serif;
-	color: #fff;;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -683,7 +683,11 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
-.navbar-custom .nav-item .nav-link:hover,
+.navbar-custom .nav-item .nav-link:hover{
+	color: #9d2f28;
+	opacity: 1;
+}
+
 .navbar-custom .nav-item .nav-link.active {
 	color: #9d2f28;
 	opacity: 1;
@@ -787,6 +791,7 @@ input[type='checkbox'] {
 }
 
 .header .header-content {
+	/* background-image: url('../images/aptonet/home-011.png'); */
 	padding-top: 8rem;
 	padding-bottom: 4rem;
 	text-align: center;
@@ -911,7 +916,7 @@ input[type='checkbox'] {
 .tabs .nav-link:hover,
 .tabs .nav-link.active {
 	background: transparent;
-	color: #5f4dee;
+	color: #9d2f28;
 }
 
 .tabs .nav-link .fas {
@@ -923,7 +928,7 @@ input[type='checkbox'] {
 }
 
 .tabs .list-unstyled .fas {
-	color: #5f4dee;
+	color: #9d2f28;
 	font-size: 0.5rem;
 	line-height: 1.625rem;
 }
@@ -991,7 +996,7 @@ input[type='checkbox'] {
 	margin-bottom: 0.875rem;
 	margin-left: 0;
 	border: 0;
-	background-color: #5f4dee;
+	background-color: #9d2f28;
 	text-align: left;
 }
 
@@ -1000,7 +1005,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .list-unstyled .fas {
-	color:#5f4dee;
+	color:#9d2f28;
 	font-size: 0.5rem;
 	line-height: 1.625rem;
 }
@@ -1024,7 +1029,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-	color: #5f4dee;
+	color: #9d2f28;
 }
 /* end of signup Button */
 
@@ -1034,7 +1039,7 @@ input[type='checkbox'] {
 	width: auto;
 	height: auto;
 	margin-left: 0.375rem;
-	color: #5f4dee;
+	color: #9d2f28;
 	opacity: 1;
 }
 
@@ -1070,7 +1075,7 @@ input[type='checkbox'] {
 }
 
 .basic-1 .list-unstyled .fas {
-	color: #5f4dee;
+	color: #9d2f28;
 	font-size: 0.5rem;
 	line-height: 1.625rem;
 }
@@ -1129,7 +1134,7 @@ input[type='checkbox'] {
 	width: 4.75rem;
 	height: 4.75rem;
 	border-radius: 50%;
-	background: #5f4dee;
+	background: #9d2f28;
 	animation: pulse-border 1500ms ease-out infinite;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
@@ -1146,7 +1151,7 @@ input[type='checkbox'] {
 	width: 4.375rem;
 	height: 4.375rem;
 	border-radius: 50%;
-	background: #5f4dee;
+	background: #9d2f28;
 	transition: all 200ms;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
@@ -1212,7 +1217,7 @@ input[type='checkbox'] {
 
 .cards-2 .card .card-title {
 	margin-bottom: 0.5rem;
-	color: #5f4dee;
+	color: #9d2f28;
 	font: 700 1.125rem/1.5rem "Open Sans", sans-serif;
 }
 
@@ -1253,7 +1258,7 @@ input[type='checkbox'] {
 }
 
 .cards-2 .card .list-unstyled .fas {
-	color: #5f4dee;
+	color: #9d2f28;
 	font-size: 0.875rem;
 	line-height: 1.625rem;
 }
@@ -1367,12 +1372,12 @@ input[type='checkbox'] {
 }
 
 .form .fa-stack .fa-stack-2x {
-	color: #5f4dee;
+	color: #9d2f28;
 	transition: all 0.2s ease;
 }
 
 .form .fa-stack:hover .fa-stack-1x {
-	color: #5f4dee;
+	color: #9d2f28;
 }
 
 .form .fa-stack:hover .fa-stack-2x {
@@ -1468,13 +1473,13 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #4f3cda url("../images/up-arrow.png") no-repeat center 47%;
+	background: #9d2f28 url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color: #4332c5; 
+	background-color: #9d2f28; 
 }
 
 
@@ -1484,7 +1489,7 @@ a:hover.back-to-top {
 .ex-header {
 	padding-top: 8rem;
 	padding-bottom: 5rem;
-	background-color: #5f4dee;
+	background-color: #9d2f28;
 	text-align: center;
 }
 
@@ -1542,7 +1547,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .fas {
-	color: #5f4dee;
+	color: #9d2f28;
 	font-size: 0.5rem;
 	line-height: 1.625rem;
 }
@@ -1571,7 +1576,7 @@ a:hover.back-to-top {
 /****************************************/
 .ex-2-header {
 	padding-top: 9rem;
-	background-color: #5f4dee;
+	background-color: #9d2f28;
 	text-align: center;
 	min-height: 100vh;
 }
@@ -1838,7 +1843,7 @@ a:hover.back-to-top {
 	
 	.tabs .nav-link:hover,
 	.tabs .nav-link.active {
-		border-bottom: 2px solid #5f4dee;
+		border-bottom: 2px solid #9d2f28;
 	}
 
 	.tabs .image-container {
