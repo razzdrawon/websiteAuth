@@ -238,6 +238,7 @@ a.white {
 }
 
 .form-group {
+	color: #fff;
 	position: relative;
 	margin-bottom: 1.25rem;
 }
@@ -786,7 +787,7 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background-color: #f3f7fd;
+	background-image: linear-gradient(#75757580, #f3f7fd);
 }
 
 .header .header-content {
@@ -1488,14 +1489,14 @@ a:hover.back-to-top {
 /****************************************/
 .ex-2-header {
 	padding-top: 9rem;
-	background-color: #cd4a40;
+	background-color: #f3f7fd;
 	text-align: center;
 	min-height: 100vh;
 }
 
 .ex-2-header h1,
 .ex-2-header p {
-	color: #fff;
+	color: #000;
 }
 
 .ex-2-header p {
@@ -1511,7 +1512,7 @@ a:hover.back-to-top {
 	margin-left: auto;
 	padding: 2.25rem 1.25rem 1.25rem 1.25rem;
 	border-radius: 0.5rem;
-	background-color: #f3f7fd;
+	background-color: #4f4b6a;
 }
 
 .ex-2-header .checkbox {
