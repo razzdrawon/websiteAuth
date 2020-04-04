@@ -51,7 +51,7 @@ body, p {
 }
 
 .p-large {
-	font: 400 1.125rem/1.75rem "Open Sans", sans-serif;
+	font: 400 1.5rem/2rem "Open Sans", sans-serif;
 }
 
 .p-small {
@@ -671,7 +671,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-nav {
-	margin-top: 0.75rem;
+	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
 
@@ -787,30 +787,39 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background-image: linear-gradient(#75757580, #f3f7fd);
+	background: url('../images/authentic/eye3.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.header .emptyspace {
+	/* background-image: url('../images/aptonet/home-011.png'); */
+	margin: 6rem;
+	text-align: center;
 }
 
 .header .header-content {
 	/* background-image: url('../images/aptonet/home-011.png'); */
-	padding-top: 8rem;
-	padding-bottom: 4rem;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 	text-align: center;
 }
 
 .header .text-container {
-	margin-bottom: 3rem;
+	margin-bottom: 4rem;
 }
 
 .header h1 {
 	margin-bottom: 1rem;
-	color: #000;
+	color: #fff;
 	font-size: 2.5rem;
 	line-height: 3rem;
+	text-shadow: 2px 2px 5px black;
 }
 
 .header .p-large {
 	margin-bottom: 2rem;
-	color: #000;
+	color: #fff;
+	text-shadow: 2px 2px 5px black;
 }
 
 .header .btn-solid-lg {
@@ -1700,7 +1709,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		text-align: left;
+		text-align: right;
 	}
 
 	.header .text-container {
